@@ -176,6 +176,9 @@ mySprite = sprites.create(img`
 x = 0
 y = 0
 mySprite2.setPosition(20, 90)
+for (let index = 0; index < 4; index++) {
+	
+}
 forever(function () {
     scene.centerCameraAt(x, 60)
     scoreview.setText("score: " + score)
